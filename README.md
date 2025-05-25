@@ -1,2 +1,34 @@
-# Frequency-Meditation
-Android app that plays customizable binaural beats using generated stereo sine waves. Users enter left/right frequencies and duration. Includes playback via AudioTrack, media-style notifications, and version check via GitHub API. Built with Jetpack Compose.
+# Frequency Meditation
+
+Android app for generating and playing binaural beats using user-defined stereo sine waves.
+
+## Features
+
+- Input left/right frequencies in Hz
+- Set playback duration in seconds
+- Audio generated using `AudioTrack` in stereo
+- Media-style notifications for play/pause control
+- Built with Jetpack Compose
+- Auto-checks for latest GitHub release version
+
+## Usage
+
+1. Enter left and right ear frequencies (Hz)
+2. Enter playback duration (seconds)
+3. Tap "Play" to begin binaural playback
+4. Use notification to pause/resume
+
+## Permissions
+
+- `POST_NOTIFICATIONS` for displaying playback controls
+
+## Requirements
+
+- Android 14.0 (API 34) or higher
+
+## Build
+
+Open in Android Studio or build via Gradle:
+
+```bash
+./gradlew assembleDebug
