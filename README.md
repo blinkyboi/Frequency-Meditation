@@ -20,7 +20,10 @@ Android app for generating and playing binaural beats using user-defined stereo 
 
 ## Permissions
 
-- `POST_NOTIFICATIONS` for displaying playback controls
+- `POST_NOTIFICATIONS` — Required to display media-style playback control notifications and update notifications.
+- `INTERNET` — Required for checking the latest GitHub release version online.
+- `REQUEST_INSTALL_PACKAGES` — Required to allow installing updates from APK files downloaded by the app.
+
 
 ## Requirements
 
